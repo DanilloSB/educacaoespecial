@@ -5,5 +5,7 @@
 @endsection
 
 @section('content')
-<h1>Pagina contatos</h1>
+<div class="container">
+    <h1>Pagina contatos</h1>
+</div>    
 @endsection
