@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,3 +28,13 @@ Route::get('/contato', function () {
 Route::get('/quemsomos', function () {
     return view('site.quemsomos');
 })->name('site.quemsomos');
+
+Route::get('/usuario_insere_e_lista', function () {
+    $u = new User;
+    $u->name = 'Heitor';
+    $timestamp = date("Y-m-d-h-i-sa");
+    $u->email = 'heitor@hotmail.com'. $timestamp;
+    $u->password = '123';
+    $u->save();
+    return User::all();
+});
