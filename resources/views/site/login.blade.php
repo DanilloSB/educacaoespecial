@@ -7,7 +7,7 @@
 @section('content')
 
 <div class="container">
-<h1>Faça seu Login ou cadastre-se!!!</h1>
+<h1>Faça seu Login</h1>
 	<p></p>
 	Usuario:<p></p>
 	<input type="text" id="emailDoUsuario"></input>
