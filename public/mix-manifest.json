@@ -2,5 +2,7 @@
     "/js/app.js": "/js/app.js",
     "/js/main.js": "/js/main.js",
     "/js/sw.js": "/js/sw.js",
+    "/js/configfb.js": "/js/configfb.js",
+    "/js/funcionalidadefb.js": "/js/funcionalidadefb.js",
     "/css/app.css": "/css/app.css"
 }

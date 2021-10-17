@@ -22,12 +22,16 @@ Route::get('/', function () {
 })->name('site.home');
 
 Route::get('/contato', function () {
-    return view('site.contato');
-})->name('site.contato');
+    return view('site.contact');
+})->name('site.contact');
 
 Route::get('/quemsomos', function () {
-    return view('site.quemsomos');
-})->name('site.quemsomos');
+    return view('site.whoweare');
+})->name('site.whoweare');
+
+Route::get('/login', function () {
+    return view('site.login');
+})->name('site.login');
 
 Route::get('/usuario_insere_e_lista', function () {
     $u = new User;

@@ -14,6 +14,8 @@ const mix = require('laravel-mix');
 mix .js('resources/js/app.js', 'public/js')
     .js('resources/js/main.js', 'public/js')
     .js('resources/js/sw.js', 'public/js')
+    .js('resources/js/configfb.js', 'public/js')
+    .js('resources/js/funcionalidadefb.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
