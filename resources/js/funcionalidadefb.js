@@ -1,17 +1,17 @@
-import { getAuth, createUserWithEmailAndPassword } from "./configfb.js";
+import { getAuth, createUserWithEmailAndPassword } from './configfb.js';
 
 function criarusuario() {
     let email = document.getElementById("emailDoUsuario").value;
-    let pass = document.getElementById("senha").value;
+    let password = document.getElementById("senha").value;
 
     console.log(window.fbapp);
     console.log(window.fbAuth);
     console.log(window.createUserWithEmailAndPassword);
-    window.createUserWithEmailAndPassword(window.fbAuth, email, pass)
+    window.createUserWithEmailAndPassword(window.fbAuth, email, password)
         .then((credenciaisDoUsuario)=>{
             console.dir(credenciaisDoUsuario)
         })
-        .cath ((err) => console.log(err));
+        .catch ((err) => console.log(err));
         let emailDoUsuarioLogado = credenciaisDoUsuario.user.email
 }
 
@@ -24,5 +24,3 @@ function trocarSenha(){
 function obterUsuarioLogado(){
 
 }
-
-alert("asdf");

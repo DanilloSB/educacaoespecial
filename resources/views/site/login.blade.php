@@ -13,10 +13,10 @@
 	<input type="text" id="emailDoUsuario"></input>
 	<p></p>
 	Senha:<p></p>
-	<input type="text" id="senha"></input>
+	<input type="password" id="senha"></input>
 	<p></p>
 	<button type="button" id="btnLogar">Logar</button>
-	<button type="button" onclick="criarusuario();">Criar Usuário</button>
+	<button type="submit" onClick="criarusuario();">Criar Usuário</button>
 </div>            
 
 
