@@ -16,7 +16,7 @@
 	<input type="password" id="senha"></input>
 	<p></p>
 	<button type="button" id="btnLogar">Logar</button>
-	<button type="submit" onClick="criarusuario();">Criar Usuário</button>
+	<button type="submit" onclick="criarUsuario();">Criar Usuário</button>
 </div>            
 
 

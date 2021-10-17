@@ -1,13 +1,11 @@
-import { getAuth, createUserWithEmailAndPassword } from './configfb.js';
-
-function criarusuario() {
+function criarUsuario() {
     let email = document.getElementById("emailDoUsuario").value;
-    let password = document.getElementById("senha").value;
+    let pass = document.getElementById("senha").value;
 
     console.log(window.fbApp);
     console.log(window.fbAuth);
     console.log(window.createUserWithEmailAndPassword);
-    window.createUserWithEmailAndPassword(window.fbAuth, email, password)
+    window.createUserWithEmailAndPassword(window.fbAuth, email, pass)
         .then((credenciaisDoUsuario)=>{
             console.dir(credenciaisDoUsuario)
         })
