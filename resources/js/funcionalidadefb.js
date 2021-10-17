@@ -24,3 +24,5 @@ function trocarSenha(){
 function obterUsuarioLogado(){
 
 }
+
+alert("asdf");
