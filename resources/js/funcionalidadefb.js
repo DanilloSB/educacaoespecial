@@ -4,7 +4,7 @@ function criarusuario() {
     let email = document.getElementById("emailDoUsuario").value;
     let password = document.getElementById("senha").value;
 
-    console.log(window.fbapp);
+    console.log(window.fbApp);
     console.log(window.fbAuth);
     console.log(window.createUserWithEmailAndPassword);
     window.createUserWithEmailAndPassword(window.fbAuth, email, password)

@@ -18,7 +18,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-globalThis.fbapp = initializeApp(firebaseConfig);
+globalThis.fbApp = initializeApp(firebaseConfig);
 globalThis.fbAuth = getAuth();
 globalThis.createUserWithEmailAndPassword = createUserWithEmailAndPassword;
-const analytics = getAnalytics(fbapp);
+const analytics = getAnalytics(fbApp);

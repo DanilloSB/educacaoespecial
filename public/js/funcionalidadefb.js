@@ -56,13 +56,13 @@ _configfb_js__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then
 
 function criarusuario() {
   var email = document.getElementById("emailDoUsuario").value;
-  var pass = document.getElementById("senha").value;
+  var password = document.getElementById("senha").value;
   console.log(window.fbapp);
   console.log(window.fbAuth);
   console.log(window.createUserWithEmailAndPassword);
-  window.createUserWithEmailAndPassword(window.fbAuth, email, pass).then(function (credenciaisDoUsuario) {
+  window.createUserWithEmailAndPassword(window.fbAuth, email, password).then(function (credenciaisDoUsuario) {
     console.dir(credenciaisDoUsuario);
-  }).cath(function (err) {
+  })["catch"](function (err) {
     return console.log(err);
   });
   var emailDoUsuarioLogado = credenciaisDoUsuario.user.email;
