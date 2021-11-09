@@ -20,5 +20,4 @@ Carolyn Bispo
 Danillo Britto
 Gabriel Pacheco
 Gabriel Tomaz
-br
 Guilherme Martins
