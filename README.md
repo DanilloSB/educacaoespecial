@@ -15,9 +15,9 @@ CSS
 
 ## Integrantes
 
-Caique Azevedo
-Carolyn Bispo
-Danillo Britto
-Gabriel Pacheco
-Gabriel Tomaz
-Guilherme Martins
+# Caique Azevedo
+# Carolyn Bispo
+# Danillo Britto
+# Gabriel Pacheco
+# Gabriel Tomaz
+# Guilherme Martins
