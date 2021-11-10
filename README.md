@@ -1,8 +1,9 @@
 ## Projeto Educação Especial
 
 ## Sobre
-Este site auxiliara na apresenta uma reflexão sobre a inclusão de alunos com necessidades especiais no ensino regular, com o objetivo de analisar a política de inclusão e os seus reflexos nos processos de socialização e de aprendizagem dos alunos com necessidades especiais, observando sistematicamente o interesse e o comportamento dos alunos que apresentam dificuldades de aprendizagem, decorrentes das suas necessidades educacionais especiais no cotidiano da sala de aula. 
-## Tecnológias
+Este site auxiliara na apresentação uma reflexão sobre a inclusão de alunos com necessidades especiais no ensino regular, com o objetivo de analisar a política de inclusão e os seus reflexos nos processos de socialização e de aprendizagem dos alunos com necessidades especiais, observando sistematicamente o interesse e o comportamento dos alunos que apresentam dificuldades de aprendizagem, decorrentes das suas necessidades educacionais especiais no cotidiano da sala de aula. 
+
+## Tecnologias
 
 Git em equipes
 Heroku
@@ -15,9 +16,21 @@ CSS
 
 ## Integrantes
 
-# Caique Azevedo
-# Carolyn Bispo
-# Danillo Britto
-# Gabriel Pacheco
-# Gabriel Tomaz
-# Guilherme Martins
+Caique Azevedo
+
+
+Carolyn Bispo
+
+
+Danillo Britto
+
+
+Gabriel Pacheco
+
+
+Gabriel Tomaz
+
+
+Guilherme Martins
+
+
