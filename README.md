@@ -1,16 +1,32 @@
-## Projeto Educação Especial
+## Projeto Integrador para Feira Tecnológica 
 
 ## Sobre
-Este site auxiliara na apresentação uma reflexão sobre a inclusão de alunos com necessidades especiais no ensino regular, com o objetivo de analisar a política de inclusão e os seus reflexos nos processos de socialização e de aprendizagem dos alunos com necessidades especiais, observando sistematicamente o interesse e o comportamento dos alunos que apresentam dificuldades de aprendizagem, decorrentes das suas necessidades educacionais especiais no cotidiano da sala de aula. 
+O presente projeto, tem como objetivo auxiliar uma reflexão sobre a educação especial dos alunos em ensino regular, trazendo a política de inclusão e os seus processos de socialização de aprendizagem destes alunos. Observando sistematicamente o interesse e o comportamento deles, em que apresentarem dificuldades de aprendizagem, decorrentes das suas deficiências no cotidiano da sala de aula.
 
 ## Tecnologias
 
-Git em equipes
+
+GitHub em equipes
+
+
 Heroku
+
+
 Laravel 8
+
+
 PHP
+
+
+Html
+
+
 JavaScript
+
+
 FireBase
+
+
 CSS
 
 
@@ -33,4 +49,9 @@ Gabriel Tomaz
 
 Guilherme Martins
 
+
+Matheus Silva
+
+
+Rafael Santos
 
