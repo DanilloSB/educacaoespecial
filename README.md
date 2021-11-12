@@ -27,6 +27,9 @@ JavaScript
 FireBase
 
 
+Postgres
+
+
 CSS
 
 
