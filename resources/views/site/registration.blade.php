@@ -5,7 +5,10 @@
 @endsection
 
 @section('content')
-<form method="Post" class="form-signin py-5">
+
+<div class="container">
+<h1>Cadastre-se</h1>
+<form method="Post">
     @csrf
     <label for="">Nome</label> <br>
     <input type="text" name="nome" placeholder="Digite seu nome" > <br>
@@ -18,8 +21,9 @@
     <label for="">Email</label> <br>
     <input type="email" name="email" placeholder="Digite seu email"> <br>
     <label for="">Senha</label> <br>
-    <input type="password" name="senha" placeholder="Digite sua senha"> <br>
+    <input type="password" name="senha" placeholder="Digite sua senha"> <br><br>
     <button type="submit">Enviar</button>
     
-</form>  
+</form> 
+</div> 
 @endsection
