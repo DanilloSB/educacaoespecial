@@ -33,6 +33,10 @@ Route::get('/login', function () {
     return view('site.login');
 })->name('site.login');
 
+Route::get('/registration', function () {
+    return view('site.registration');
+})->name('site.registration');
+
 Route::get('/usuario_insere_e_lista', function () {
     $u = new User;
     $u->name = 'Heitor';
