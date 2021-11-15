@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Usuario;
+use App\Models\Usuarios;
 
 class UsuarioController extends Controller
 {
@@ -14,7 +14,7 @@ class UsuarioController extends Controller
 
     public function store (Request $request)
     {
-        Usuario::create([
+        Usuarios::create([
             'nome' => $request->nome,
             'cpf' => $request->cpf,
             'telefone' => $request->telefone,
@@ -23,6 +23,9 @@ class UsuarioController extends Controller
             'senha' => $request->senha,
         ]);
 
-        return "Usuário Cadastrado com Sucesso!!!";
+        return "<H1>Usuário Cadastrado com Sucesso!!!</H1>";
+
+            
     }
+    
 }
