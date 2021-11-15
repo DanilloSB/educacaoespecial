@@ -8,7 +8,7 @@
 
 <div class="container">
 <h1>Cadastre-se</h1>
-<form method="Post">
+<form action="{{ route('registrar_usuario') }}" method="POST">
     @csrf
     <label for="">Nome</label> <br>
     <input type="text" name="nome" placeholder="Digite seu nome" > <br>

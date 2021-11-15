@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\User;
+use App\Http\Controllers\UsuarioController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,6 +37,12 @@ Route::get('/login', function () {
 Route::get('/registration', function () {
     return view('site.registration');
 })->name('site.registration');
+
+Route::get('/registration/novo', [UsuarioController::class, 'create']);
+Route::post('/registration/novo', [UsuarioController::class, 'store'])->name('registrar_usuario');
+
+
+
 
 Route::get('/usuario_insere_e_lista', function () {
     $u = new User;
