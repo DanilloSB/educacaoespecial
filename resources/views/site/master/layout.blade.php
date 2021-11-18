@@ -57,10 +57,11 @@
 <script>
     if (!navigator.serviceWorker.controller) {
       navigator.serviceWorker.register("/sw.js")
+      console.log("registrando Service Worker")
       .then(function (reg) {
         console.log("O service worker foi registrado a partir do escopo: " + reg.scope);
       });["catch"](function (error) {
-    alert('Erro na instalação do Service worker:', error);
+    alert('Erro na instalação do Service Worker:', error);
   });
     }
 </script>
