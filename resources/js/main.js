@@ -1,5 +1,6 @@
 if ('serviceWorker' in navigator){
-    nivigator.serviceWorker.register('/js/sw.js')
+    navigator.serviceWorker.register('/sw.js')
+    console.log('registrando Service Worker')
         .then(function(registration){
             alert('Registrado com sucesso, scope is:', registration.scope);
         })
