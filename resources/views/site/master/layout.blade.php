@@ -55,7 +55,7 @@
 
 <script src="/sw.js" defer></script>
 <script>
-    if (!navigator.serviceWorker.controller) {
+    if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register("/sw.js")
       console.log("registrando Service Worker")
       .then(function (reg) {
@@ -65,3 +65,16 @@
   });
     }
 </script>
+
+<!--<script>
+  if ('serviceWorker' in navigator){
+    navigator.serviceWorker.register('/sw.js')
+    console.log('registrando Service Worker')
+        .then(function(registration){
+            alert('Registrado com sucesso, scope is:', registration.scope);
+        })
+        .catch(function(error){
+            alert('Erro na instalação do Service worker:', error);
+        });
+}
+</script>-->
