@@ -60,10 +60,11 @@
       console.log("registrando Service Worker")
       .then(function (reg) {
         console.log("O service worker foi registrado a partir do escopo: " + reg.scope);
-      });["catch"](function (error) {
+      }),
+      .catch(function (error) {
     alert('Erro na instalação do Service Worker:', error);
   });
-    }
+  }
 </script>
 
 <!--<script>
