@@ -55,7 +55,7 @@
 
 <script src="/sw.js" defer></script>
 <script>
-    if ('serviceWorker' in navigator) {
+    (if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register("/sw.js")
       console.log("registrando Service Worker")
       .then(function (reg) {
@@ -63,8 +63,8 @@
       }),
       .catch(function (error) {
     alert('Erro na instalação do Service Worker:', error);
-  });
-  }
+    });
+  })();
 </script>
 
 <!--<script>
