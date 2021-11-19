@@ -19,7 +19,7 @@
 
     @yield('title')
 </head>
-<body>
+<body onload="instalaServiceWorker();">
 
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
   <ul class="navbar-nav">
@@ -55,7 +55,8 @@
 
 <script src="/sw.js" defer></script>
 <script>
-    (if ('serviceWorker' in navigator) {
+  function instalaServiceWorker(){
+    if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register("/sw.js")
       console.log("registrando Service Worker")
       .then(function (reg) {
@@ -64,7 +65,7 @@
       .catch(function (error) {
     alert('Erro na instalação do Service Worker:', error);
     });
-  })();
+  }}
 </script>
 
 <!--<script>
