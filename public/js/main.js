@@ -1,4 +1,4 @@
-if ('serviceWorker' in navigator){
+(if ('serviceWorker' in navigator){
   navigator.serviceWorker.register('/sw.js')
   console.log('registrando Service Worker')
       .then(function(registration){
@@ -7,4 +7,4 @@ if ('serviceWorker' in navigator){
       .catch(function(error){
           alert('Erro na instalação do Service worker:', error);
       });
-}
+})();
