@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
+    <script src="/js/main.js" defer></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,30 +56,3 @@
 </body>
 </html>
 
-<script src="/sw.js" defer></script>
-<script>
-  function instalaServiceWorker(){
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("/sw.js")
-      console.log("registrando Service Worker")
-      .then(function (reg) {
-        console.log("O service worker foi registrado a partir do escopo: " + reg.scope);
-      }),
-      .catch(function (error) {
-    alert('Erro na instalação do Service Worker:', error);
-    });
-  }}
-</script>
-
-<!--<script>
-  if ('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/sw.js')
-    console.log('registrando Service Worker')
-        .then(function(registration){
-            alert('Registrado com sucesso, scope is:', registration.scope);
-        })
-        .catch(function(error){
-            alert('Erro na instalação do Service worker:', error);
-        });
-}
-</script>-->
