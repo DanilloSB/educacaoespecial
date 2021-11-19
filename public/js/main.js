@@ -1,10 +1,9 @@
-(if ('serviceWorker' in navigator){
+if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
-  console.log('registrando Service Worker')
-      .then(function(registration){
-          alert('Registrado com sucesso, scope is:', registration.scope);
+      .then(function(registration) {
+          alert('Registration successful, scope is:', registration.scope);
       })
-      .catch(function(error){
-          alert('Erro na instalação do Service worker:', error);
+      .catch(function(error) {
+          alert('Service worker registration failed, error:', error);
       });
-})();
+}
