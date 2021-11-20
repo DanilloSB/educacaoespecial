@@ -5,32 +5,23 @@
 @endsection
 
 @section('content')
-<div class="container">
-    <h1>Objetivo:</h1>
+<div class="jumbotron text-center bg-image" 
+style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');height: 35vh">
+  <h1>Educação Especial</h1>
+  <p>Projeto voltado à Educação Especial de alunos com Síndrome de Down e Autismo.</p> 
+</div>
+
+<div class="container"> <div class=" text-center mt-5 ">
+    <h1>Objetivo:</h1> 
     <br>
-    <p><h5>Este site auxiliara na apresenta uma reflexão sobre a 
-    inclusão de alunos com necessidades especiais no ensino regular, 
-    com o objetivo de analisar a política de inclusão e os seus 
-    reflexos nos processos de socialização e de aprendizagem dos 
-    alunos com necessidades especiais, observando sistematicamente 
-    o interesse e o comportamento dos alunos que apresentam 
-    dificuldades de aprendizagem, decorrentes das suas necessidades 
-    educacionais especiais no cotidiano da sala de aula. 
+    <p><h5>O presente projeto, tem como objetivo auxiliar uma reflexão sobre a educação especial dos alunos em ensino regular, 
+        trazendo a política dos alunos com Síndrome de Down e os seus processos de socialização de aprendizagem destes alunos. 
+        Observando sistematicamente o interesse e o comportamento deles, em que apresentarem dificuldades de aprendizagem, 
+        decorrentes das suas deficiências no cotidiano da sala de aula.
     </h5></p>
-    <p><h5>
-    A pesquisa pautou-se em estudos de referenciais teóricos e em um estudo de 
-     caso em uma Unidade Escolar de ensino regular que proporcionou 
-     uma análise entre a teoria e a prática no cotidiano escolar, 
-     numa sala de aula, onde o professor tem que atender a 
-     diversidade, tanto em relação às dificuldades de 
-     aprendizagem, como também a diversidade comportamental.
-     </h5></p> 
-     <p><h5>Dessa forma, analisou-se que a escola está cumprindo seu 
-     papel com estratégias que permitam a integração dos alunos 
-     de forma mais autônoma, porém ainda há mudanças necessárias 
-     para a emancipação dos alunos com necessidades especiais, 
-     principalmente com a participação da família, objetivando 
-     uma escola de qualidade para todos.</h5></p>
 
 </div>   
+</div> 
+<br>
+<br> 
 @endsection

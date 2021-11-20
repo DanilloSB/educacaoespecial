@@ -38,18 +38,9 @@ Route::get('/registration', function () {
     return view('site.registration');
 })->name('site.registration');
 
+Route::get('/aulas', function () {
+    return view('site.aulas');
+})->name('site.aulas');
+
 Route::get('/registration/novo', [UsuarioController::class, 'create']);
 Route::post('/registration/novo', [UsuarioController::class, 'store'])->name('registrar_usuario');
-
-
-
-
-Route::get('/usuario_insere_e_lista', function () {
-    $u = new User;
-    $u->name = 'Heitor';
-    $timestamp = date("Y-m-d-h-i-sa");
-    $u->email = 'heitor@hotmail.com'. $timestamp;
-    $u->password = '123';
-    $u->save();
-    return User::all();
-});
