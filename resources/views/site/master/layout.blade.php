@@ -7,7 +7,7 @@
     
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="manifest" assent="resources/manifest.json">
-  <link rel="icon" type="imagem/png" href="/resources/image/meufavicon.png" />
+  <link rel="icon" type="image/png" href="http://www.apadam.org/img/maos3.png" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <style>.bg-gradient {background: linear-gradient(-105deg, #0abab5, rgb(245, 247, 241));}</style>
   <style>
@@ -66,19 +66,6 @@
 
 @yield('content')
 
-<main>
-<footer class="footer navbar-sticky-bottom">
-      <div class="container-fluid p-2" style="background-color: #0abab5;">
-        <div class="row">
-          <div class="col-sm-12 text-white text-center">
-            <p class="mb-0">Desenvolvido por: Caique Azevedo, Carolyn Bispo, Danillo Britto, Gabriel Pacheco, Gabriel Tomaz, Guilherme Martins, Matheus Silva, Rafael Santos.</p>
-              <p class="mb-0">&copy {{date('Y')}}</p>
-          </div>    
-        </div>
-      </div>
-</footer>
-
-</main>
 </body>
 </html>
 
