@@ -1,14 +1,9 @@
-/******/ (() => { // webpackBootstrap
-var __webpack_exports__ = {};
-/*!******************************!*\
-  !*** ./resources/js/main.js ***!
-  \******************************/
-if ('serviceWorker' in navigator) {
-  nivigator.serviceWorker.register('/js/sw.js').then(function (registration) {
-    alert('Registrado com sucesso, scope is:', registration.scope);
-  })["catch"](function (error) {
-    alert('Erro na instalação do Service worker:', error);
-  });
-}
-/******/ })()
-;
+(if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+      .then(function(registration) {
+          alert('Registration successful, scope is:', registration.scope);
+      })
+      .catch(function(error) {
+          alert('Service worker registration failed, error:', error);
+      });
+})();

@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<<<<<<< HEAD
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+=======
+
+    <script src="./js/main.js" defer></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="manifest" assent="resources/manifest.json">
+>>>>>>> 764fe0ddcfcdfebe30d5a93d22c3ef9813206fc0
     
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="manifest" assent="resources/manifest.json">
@@ -21,6 +33,7 @@
   <script src="./js/configfb.js" type="module"></script>
   <script src="./js/funcionalidadefb.js"></script>
   
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -29,7 +42,7 @@
 
     @yield('title')
 </head>
-<body>
+<body onload="instalaServiceWorker();">
 
 <header>
 <nav class="navbar col-12 navbar-dark bg-gradient" style="z-index: 999;">
@@ -79,3 +92,4 @@
 </main>
 </body>
 </html>
+
