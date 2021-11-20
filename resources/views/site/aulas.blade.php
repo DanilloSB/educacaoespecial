@@ -1,3 +1,5 @@
+<!-- Página De Aulas -->
+
 @extends('site.master.layout')
 
 @section('title')

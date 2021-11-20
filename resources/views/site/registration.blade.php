@@ -1,3 +1,5 @@
+<!-- Página De Registro -->
+
 @extends('site.master.layout')
 
 @section('title')

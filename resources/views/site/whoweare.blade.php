@@ -1,3 +1,5 @@
+<!-- Página De Apresentação Dos Desenvolvedores -->
+
 @extends('site.master.layout')
 
 @section('title')

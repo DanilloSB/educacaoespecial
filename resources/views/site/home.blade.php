@@ -1,3 +1,5 @@
+<!-- Página De Principal -->
+
 @extends('site.master.layout')
 
 @section('title')
