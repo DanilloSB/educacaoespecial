@@ -16,7 +16,7 @@
 	<input type="password" id="senha" placeholder="Digite sua senha"></input>
 	<p></p>
 	<button type="button" id="btnLogar">Logar</button><br>
-	<button onclick="criarUsuario();" type="type" >Criar Usuário</button>
+	<button onclick="criarUsuario();" type="type" >Criar Usuário</button><br>
 	<a href="{{ route('site.registration') }}">Cadastre-se</a>
 </div>            
 
