@@ -20,7 +20,7 @@
 
   <script src="./js/configfb.js" type="module"></script>
   <script src="./js/funcionalidadefb.js"></script>
-  
+  <script src="./js/main.js" defer></script>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -30,7 +30,7 @@
 
     @yield('title')
 </head>
-<body onload="instalaServiceWorker();">
+<body >
 
 <header>
 <nav class="navbar col-12 navbar-dark bg-gradient" style="z-index: 999;">
@@ -54,11 +54,12 @@
       <a class="nav-link {{ (Route::current()->getName() === 'site.whoweare' ? 'active' : '') }} text-white" href="{{ route('site.whoweare') }}">Quem Somos</a>
     </li>
     <li class="nav-item navbar">
-      <a class="nav-link {{ (Route::current()->getName() === 'site.login' ? 'active' : '') }} text-white" href="{{ route('site.login') }}">Login</a>
-    </li>
-    <li class="nav-item navbar">
       <a class="nav-link {{ (Route::current()->getName() === 'site.aulas' ? 'active' : '') }} text-white" href="{{ route('site.aulas') }}">Aulas</a>
     </li>
+    <li class="nav-item navbar">
+      <a class="nav-link {{ (Route::current()->getName() === 'site.login' ? 'active' : '') }} text-white" href="{{ route('site.login') }}">Login</a>
+    </li>
+    
   </a>
 </nav>
 
