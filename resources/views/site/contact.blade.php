@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<div class="container text-center mt-5 ">
+<div class="container"> <div class=" text-center mt-5 ">
     <h1>Fale Conosco</h1>
 </div>   
 <div class="row ">
