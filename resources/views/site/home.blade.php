@@ -11,7 +11,7 @@ style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/7
   <p>Projeto voltado à Educação Especial de alunos com Síndrome de Down e Autismo.</p> 
 </div>
 
-<div class="container"> <div class=" text-center mt-5 ">
+<div class="container text-center mt-5 ">
     <h1>Objetivo:</h1> 
     <br>
     <p><h5>O presente projeto, tem como objetivo auxiliar uma reflexão sobre a educação especial dos alunos em ensino regular, 
