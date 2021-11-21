@@ -21,9 +21,9 @@ class ContatosController extends Controller
             'msg' => $request->msg,
         ]);
 
-       return view('site.contact'); 
+       return "<h1>Obrigado, logo entraremos em contato!!! ;) </h1>"; 
        
-       
+
       
     }
 }
