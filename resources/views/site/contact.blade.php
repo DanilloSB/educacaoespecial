@@ -15,14 +15,15 @@
             <div class="card mt-2 mx-auto p-4 bg-light">
                 <div class="card-body bg-light">
                     <div class="container">
-                        <form id="contact-form" role="form">
+                        <form action="{{ route('registrar_contato') }}" method="POST" id="contact-form" role="form">
+                            @csrf
                             <div class="controls">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="form-group"> <label for="form_name">Nome *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Por favor insira seu primeiro nome" required="required" data-error="O primeiro nome é obrigatório."> </div>
+                                        <div class="form-group"> <label for="form_name">Nome *</label> <input id="form_name" type="text" name="nome" class="form-control" placeholder="Por favor insira seu primeiro nome" required="required" data-error="O primeiro nome é obrigatório."> </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group"> <label for="form_lastname">Sobrenome *</label> <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Por favor insira seu sobrenome" required="required" data-error="O sobrenome é obrigatório."> </div>
+                                        <div class="form-group"> <label for="form_lastname">Sobrenome *</label> <input id="form_lastname" type="text" name="sobrenome" class="form-control" placeholder="Por favor insira seu sobrenome" required="required" data-error="O sobrenome é obrigatório."> </div>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -32,7 +33,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="form-group"> <label for="form_message">Mensagem *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Escreva sua mensagem aqui." rows="4" required="required" data-error="Por favor, deixe-nos uma mensagem."></textarea> </div>
+                                        <div class="form-group"> <label for="form_message">Mensagem *</label> <textarea id="form_message" name="msg" class="form-control" placeholder="Escreva sua mensagem aqui." rows="4" required="required" data-error="Por favor, deixe-nos uma mensagem."></textarea> </div>
                                     </div>
                                     <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Enviar Mensagem"> </div>
                                 </div>

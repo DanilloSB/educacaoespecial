@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Models\User;
 use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\ContatosController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -44,3 +45,6 @@ Route::get('/aulas', function () {
 
 Route::get('/registration/novo', [UsuarioController::class, 'create']);
 Route::post('/registration/novo', [UsuarioController::class, 'store'])->name('registrar_usuario');
+
+Route::get('/contact/novo', [ContatosController::class, 'create']);
+Route::post('/contact/novo', [ContatosController::class, 'store'])->name('registrar_contato');
