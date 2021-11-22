@@ -20,10 +20,8 @@ class ContatosController extends Controller
             'email' => $request->email,
             'msg' => $request->msg,
         ]);
-
-       return "<h1>Obrigado, logo entraremos em contato!!! ;) </h1>"; 
-       
-
+        return "<h1>Obrigado por nos constatar, logo entraremos em contato!!!</h1>";
       
+             
     }
 }
