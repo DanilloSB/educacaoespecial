@@ -16,7 +16,7 @@
             <div class="card-body">
                 <h5 class="card-title">Educação em Foco: </h5>
                 <p class="card-text">Educação Especial <br> (Gran Curso Online) <br> ~Prof. Carlinhos Costa </p>
-                <a href="https://www.youtube.com/watch?v=0oWZTdqwTiw&t=864s" class="btn btn-primary">Ver Mais</a>
+                <a href="https://www.youtube.com/watch?v=0oWZTdqwTiw&t=864s" class="btn btn-primary" target="_blank">Ver Mais</a>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
             <div class="card-body">
                 <h5 class="card-title">EDUCAÇÃO ESPECIAL E INCLUSIVA</h5>
                 <p class="card-text">TUDO O QUE VOCÊ PRECISA SABER <br> ~Professor Davi</p>
-                <a href="https://www.youtube.com/watch?v=9v6hOXEoMqE&t=2s" class="btn btn-primary">Ver Mais</a>
+                <a href="https://www.youtube.com/watch?v=9v6hOXEoMqE&t=2s" class="btn btn-primary" target="_blank">Ver Mais</a>
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@
             <div class="card-body">
                 <h5 class="card-title">A EDUCAÇÃO ESPECIAL na Perspectiva da INCLUSÃO ESCOLAR:</h5>
                 <p class="card-text"> A Escola Comum INCLUSIVA <br> (Intensivo Pedagógico) <br> ~Edilene Ropoli</p>
-                <a href="https://www.youtube.com/watch?v=wgJ2Qwy61N8&t=41s" class="btn btn-primary">Ver Mais</a>
+                <a href="https://www.youtube.com/watch?v=wgJ2Qwy61N8&t=41s" class="btn btn-primary" target="_blank">Ver Mais</a>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
             <div class="card-body">
                 <h5 class="card-title">Educação Especial na Prática.</h5>
                 <p class="card-text">Ensinando Matemática <br> (SOS Educação Especial) <br> ~Marta Bistena</p>
-                <a href="https://www.youtube.com/watch?v=ENLUsXiAA3I" class="btn btn-primary">Ver Mais</a>
+                <a href="https://www.youtube.com/watch?v=ENLUsXiAA3I" class="btn btn-primary" target="_blank">Ver Mais</a>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
             <div class="card-body">
                 <h5 class="card-title">LDB</h5>
                 <p class="card-text">(Educação Especial) <br> Fabiana Firmino</p>
-                <a href="https://www.youtube.com/watch?v=VPEO4ED0tUo" class="btn btn-primary">Ver Mais</a>
+                <a href="https://www.youtube.com/watch?v=VPEO4ED0tUo" class="btn btn-primary" target="_blank">Ver Mais</a>
             </div>
         </div>
     </div>
@@ -70,7 +70,7 @@
             <div class="card-body">
                 <h5 class="card-title">Videoaula 01</h5>
                 <p class="card-text">Educação Especial <br> (Prefeitura de Uberlândia)</p>
-                <a href="https://www.youtube.com/watch?v=UburS54t9OM" class="btn btn-primary">Ver Mais</a>
+                <a href="https://www.youtube.com/watch?v=UburS54t9OM"  class="btn btn-primary" target="_blank">Ver Mais</a>
             </div>
         </div>
     </div>
