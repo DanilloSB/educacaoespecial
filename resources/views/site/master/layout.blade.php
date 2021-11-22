@@ -61,6 +61,10 @@
     <li class="nav-item navbar">
       <a class="nav-link {{ (Route::current()->getName() === 'site.login' ? 'active' : '') }} text-white" href="{{ route('site.login') }}">Login</a>
     </li>
+    <!-- <div class="form-inline my-2 my-lg-0">  
+      <label class="mr">Danillo</label>  
+      <a href="">SAIR</a>
+    </div> -->
     
   </a>
 </nav>
