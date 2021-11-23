@@ -30,7 +30,7 @@ FireBase
 Postgres
 
 
-CSS
+Bootstrap
 
 
 ## Integrantes

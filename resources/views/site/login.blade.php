@@ -28,7 +28,7 @@
 <label for="">Senha</label> <br>
 <input type="password" name="password" placeholder="Digite sua senha" > <br><br>
 	
-	<button onclick="logarUsuario()" type="submit" id="btnLogar" >Logar</button>
+	<button onclick="logarUsuario();" type="submit" id="btnLogar" >Logar</button>
 	<button onclick="criarUsuario();" type="type" >Criar Usuário</button><br><br>
 	<a href="{{ route('site.registration') }}">Cadastre-se</a>
 </div>            
