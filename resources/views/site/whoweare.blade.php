@@ -39,7 +39,7 @@
                 <h5 class="card-title">Guilherme Martins</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Front-End</h6>
                 <p class="card-text"> Responsável pela estilização do site, abordando cores representativas ao foco da Deficiência.</p>
-                <a href="https://github.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30" alt="30"></a>
+                <a href="https://github.com/GM140" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30" alt="30"></a>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
                 <h5 class="card-title">Gabriel Tomaz</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Back-End</h6>
                 <p class="card-text">Responsável pela programação do site, configurando o cadastramento dos usuários do site.</p>
-                <a href="https://github.com/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30" alt="30"></a>
+                <a href="https://github.com/gabrielts1" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" height="30" alt="30"></a>
             </div>
         </div>
     </div>
